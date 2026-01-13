@@ -1,6 +1,43 @@
 {
-  "app": "Alpla.MaterialHdl",
-  "version": "0.1.0",
-  "dev_mode": 1,
-  "release_date": "2026-01-13"
+    "SoftwareUpdate": {
+        "General": {
+            "AppName": "Alpla.MaterialHdl",
+            "Author": "thaipv",
+            "Website": "https://github.com/thaipv/Alpla.MaterialHdl"
+        },
+        "Channels": {
+            "Stable": {
+                "LatestVersion": "1.0.0",
+                "DownloadUrl": "https://github.com/thaipv/Alpla.MaterialHdl/releases/latest",
+                "Versions": [
+                    {
+                        "VersionCode": "1.0.0",
+                        "ReleaseDate": "2025-05-01",
+                        "Description": "Phiên bản chính thức đầu tiên",
+                        "UpdateNotes": [
+                            "Phát hành bản ổn định cho người dùng cuối",
+                            "Hoàn thiện các chức năng cốt lõi",
+                            "Đảm bảo độ ổn định khi triển khai diện rộng"
+                        ]
+                    }
+                ]
+            },
+            "Development": {
+                "LatestVersion": "1.1.0",
+                "SourceUrl": "https://raw.githubusercontent.com/thaipv/Alpla.MaterialHdl/main/src",
+                "Versions": [
+                    {
+                        "VersionCode": "1.1.0",
+                        "ReleaseDate": "2026-01-13",
+                        "Description": "Phiên bản đang phát triển",
+                        "UpdateNotes": [
+                            "Tái cấu trúc kiến trúc module",
+                            "Xây dựng cơ chế đồng bộ mã nguồn read-only từ GitHub",
+                            "Chuẩn bị cho lần phát hành tiếp theo"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
 }
