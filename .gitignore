@@ -1,0 +1,10 @@
+# Excel temporary files
+~$*.xls*
+*.tmp
+
+# VBA compiled cache
+*.exd
+
+# User local config
+*.log
+*.bak
